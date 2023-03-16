@@ -359,7 +359,7 @@ var LineChart = /** @class */ (function (_super) {
             var baseLegendItemX = width / (legend.length + 1);
             return legend.map(function (legendItem, i) {
                 return (<G key={Math.random()}>
-                    <LegendItem index={i} iconColor={_this.getColor(datasets[i], 0.9)} baseLegendItemX={baseLegendItemX} legendText={legendItem} labelProps={__assign({}, _this.getPropsForLabels())} legendOffset={legendOffset} />
+                    <LegendItem index={i} iconColor={'white'} baseLegendItemX={baseLegendItemX} legendText={legendItem} labelProps={__assign({}, _this.getPropsForLabels())} legendOffset={legendOffset} />
                 </G>);
             });
         };
