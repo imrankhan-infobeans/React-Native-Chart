@@ -94,7 +94,7 @@ var LineChart = /** @class */ (function (_super) {
                     };
                     output.push(<Circle key={Math.random()} cx={cx} cy={cy}
                         fill="transparent"
-                        onPress={onPress} {..._this.getPropsForDots(x, i)} />, <Circle key={Math.random()} cx={cx} cy={cy} r="4" fill="#000" fillOpacity={0} onPress={onPress} />
+                        onPress={onPress} {..._this.getPropsForDots(x, i)} />, <Circle key={Math.random()} cx={cx} cy={cy} r="10" fill="#000" fillOpacity={0} onPress={onPress} />
                         , renderDotContent({ x: cx, y: cy, index: i, indexData: x }
                         )
                     );
